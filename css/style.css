@@ -1,0 +1,90 @@
+.content {
+  background-color: rgba(230, 179, 42, 0.6196078431372549);
+  min-height: 100vh; 
+  overflow: hidden;
+  display: block;
+  padding-bottom: 4em; 
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2.5vh;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  height: 4em;
+  font-size: 1em;
+}
+
+footer p a {
+  color: white;
+}
+
+h1 {
+  font-size: 6vh;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  text-decoration: underline;
+}
+
+section {
+  margin: 20px auto;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background-color: white;
+  width: 80%;
+  padding: 1% 2%;
+}
+
+h2 {
+  font-size: 3vh;
+  text-align: center;
+  margin-bottom: 1%;
+  font-family: 'Russo One', sans-serif;
+}
+
+p {
+  margin: 0.5%;
+  font-family: 'Basic', sans-serif;
+}
+
+.resumeList li {
+  list-style: disc;
+  margin-left: 2%;
+  font-family: 'Basic', sans-serif;
+  list-style-position: inside;
+}
+
+h3 {
+  font-family: 'Basic', sans-serif;
+  margin: 1% 0;
+  font-weight: 900;
+  font-size: 1.5em;
+}
