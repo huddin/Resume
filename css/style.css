@@ -47,7 +47,7 @@ footer p a {
 }
 
 h1 {
-  font-size: 6vh;
+  font-size: 3em;
   text-align: center;
   font-family: 'Anton', sans-serif;
   text-decoration: underline;
@@ -61,6 +61,7 @@ section {
   background-color: white;
   width: 80%;
   padding: 1% 2%;
+  min-width: 450px;
 }
 
 h2 {
@@ -87,4 +88,30 @@ h3 {
   margin: 1% 0;
   font-weight: 900;
   font-size: 1.5em;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img {
+  width: 49%;
+  height: 49%;
+  max-width: 100%; 
+  margin: 5px;
+}
+.pdf {
+  list-style-type: none;
+  float: right;
+  position: fixed;
+  left: 95%;
+  top: 5em;
+  width: 15%;
+  padding:0;
+  background-color: #333;
+  height: 5%;
+}
+.pdf a {
+  color: white;
 }
