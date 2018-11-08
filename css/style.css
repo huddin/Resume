@@ -101,17 +101,3 @@ img {
   max-width: 100%; 
   margin: 5px;
 }
-.pdf {
-  list-style-type: none;
-  float: right;
-  position: fixed;
-  left: 95%;
-  top: 5em;
-  width: 15%;
-  padding:0;
-  background-color: #333;
-  height: 5%;
-}
-.pdf a {
-  color: white;
-}
